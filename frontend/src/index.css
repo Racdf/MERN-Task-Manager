@@ -142,11 +142,7 @@ body{
   color:var(--muted);
   border:1px solid rgba(255,255,255,0.03);
 }
-.btn-ghost:hover{
-  background: linear-gradient(90deg,var(--accent),#2f8ce8);
-  color:white;
-  border-radius: 5px;
-}
+
 .btn-danger{
   background: linear-gradient(90deg, #ff7b7b, #ff5a5a);
   color:white;
