@@ -20,3 +20,7 @@ Simple Task Manager built with MERN stack: React, Node/Express, MongoDB, Mongoos
 - GET /api/tasks/:id
 - PUT /api/tasks/:id
 - DELETE /api/tasks/:id
+
+## Demo Link:
+
+- https://mern-task-manager-nu.vercel.app/
