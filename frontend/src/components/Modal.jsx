@@ -2,19 +2,6 @@ export default function Modal({ open, onClose, children }) {
   if (!open) return null;
 
   return (
-    <div
-      style={{
-        position: "fixed",
-        inset: 0,
-        background: "rgba(0,0,0,0.6)",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        zIndex: 999,
-        padding: "20px"
-      }}
-      onClick={onClose}
-    >
       <div
         style={{
           background: "var(--card)",
@@ -28,6 +15,5 @@ export default function Modal({ open, onClose, children }) {
       >
         {children}
       </div>
-    </div>
   );
 }
